@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 /**
  * @author wyt
- * @description: TODO
+ * @description: 课程服务启动类
  * @date: 2019/12/30
  * @version: 1.0
  */
@@ -17,7 +17,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 public class HomepageCourseApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HomepageCourseApplication.class,args);
+        SpringApplication.run(HomepageCourseApplication.class, args);
     }
 
 }
