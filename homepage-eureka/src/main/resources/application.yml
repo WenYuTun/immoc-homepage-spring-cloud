@@ -8,6 +8,8 @@ server:
 eureka:
   instance:
     hostname: localhost
+  server:
+    enable-self-preservation: false #关闭自我保护模式
   client:
     #是否从eureka server 中获取注册信息
     fetch-registry: false
